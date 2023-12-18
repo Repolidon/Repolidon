@@ -1,0 +1,130 @@
+<html>
+    <head>
+	<style>
+	.container {
+        display:grid;
+		border:5px solid black;
+		grid-template-rows:1fr 3fr 1fr;
+		}
+	.header {
+	    background:blue;
+		font-size:3em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.nav {
+	    background:yellow;
+		display:flex;
+		flex-direction:column;
+	    font-size:1.5em;
+		text-align:center;
+		grid-column:span 1;
+	    }
+	.main {
+	    background:brown;
+	    font-size:1.5em;
+		text-align:center;
+		border-align:center;
+		padding:10px;
+		grid-column:span 2;
+		}
+	.footer {
+	    background:orange;
+	    font-size:1em;
+		text-align:center;
+		grid-column:span 3;                                      
+	        padding:10px;
+		}
+		
+	@media only screen and (max-width:600px) {
+	    
+		.container{
+		    display:grid;
+			border:5px solid black;
+			grid-template-columns: 1fr 3fr;
+		  grid-template-rows:1fr 3fr 1fr;
+		  margin-right:auto;
+		  margin-left:auto;
+ 		    }
+		.header {
+	    background:red;
+		font-size:3em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+		.nav {
+	    background:green;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 1;
+	    }
+	.main {
+	    background:blue;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 2;
+		}
+		.footer {
+	    background:yellow;
+	    font-size:1em;
+		text-align:center;
+		grid-column:span 3;                                      
+	        padding:10px;
+		}
+	 }
+	 @media only screen and (max-width:300px) {
+	    
+		.container{
+		    display:grid;
+			border:5px solid black;
+			grid-template-rows:1fr 1fr 3fr 1fr;
+		  margin-right:auto;
+		  margin-left:auto;
+ 		    }
+		.header {
+	    background:red;
+		font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.nav {
+	    background:green;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.main {
+	    background:blue;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		}
+	.footer {
+	    background:yellow;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;                                      
+	
+		}
+	
+	
+	
+	    }
+	</style>
+	    <title>ABOUT</title>
+	</head>
+<body>
+
+<div class=container>	
+   
+    <div class=header>ABOUT MYSELF</div>
+	<div class=nav><a href=index.html>MAIN</a>
+	<a href=MY_TALENTS.html>MY TALENTS</a><a href=MY_SKILLS.html>MY SKILLS</a></div>
+	<div class=main>Hi, I am Bryle Jeff Niño D. Repolidon, I am student from Don Bosco Technical College<br>
+I am 14, and currently enjoying my Chrismas break. I was born in the Philippines.<br>
+I Enjoy playing Video Games, Sports, etc.</br></br></div>
+	<div class=footer><a href=README.html>By Bryle Jeff Niño D. Repolidon From G9-Caravario</a></div>
+	
+	</div>
+</body>
+</html>	
